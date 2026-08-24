@@ -1,11 +1,26 @@
 name: refresh
 
-# Nightly scrape at 04:12 IST (22:42 UTC). Off the hour on purpose — every cron
-# job in the world fires at :00 and the portal is a government host.
+# NOT scheduled on GitHub-hosted runners: sih.gov.in sits behind an Azure
+# Application Gateway WAF that returns 403 to GitHub's datacenter IPs. Verified
+# 2026-08-24 from a California runner — every path, including the root domain,
+# and with full browser headers. So a nightly cron here would fail every night
+# and never collect anything.
+#
+# The scrape has to run from a network the portal accepts. Two ways to use this
+# workflow once you have one:
+#
+#   1. Register a self-hosted runner on a machine the portal serves, then change
+#      `runs-on: ubuntu-latest` to `runs-on: self-hosted` and restore the
+#      schedule below.
+#   2. Leave it dispatch-only and drive the scrape from that machine directly
+#      (see "Keeping the data fresh" in the README).
+#
+# Kept as workflow_dispatch so it stays runnable, and so switching to a
+# self-hosted runner is a one-line change rather than a rewrite.
 on:
-  schedule:
-    - cron: "42 22 * * *"
   workflow_dispatch:
+  # schedule:
+  #   - cron: "42 22 * * *"   # 04:12 IST — enable only on a self-hosted runner
 
 permissions:
   contents: write

@@ -23,6 +23,7 @@ deadlines and idea counts on the portal before you commit to a statement.
 | `web/src/data/meta.json` | Year and counts, for client components (1 KB) |
 | `web/` | Next.js static site (`output: "export"`) |
 | `scripts/scrape.py` | Scraper, validator and artifact writer |
+| `scripts/refresh.py` | Scrape + commit + push, for a scheduled task |
 | `scripts/lib.py` | Pure helpers (text repair, CSV, description blocks) |
 | `scripts/test_scrape.py` | Self-check — no network, no writes |
 
@@ -58,6 +59,47 @@ is append-only and changes-only: a row is written when a statement's count
 differs from the last recorded value, so a missing date means "unchanged". That
 makes crowding and weekly inflow computable after the fact, which is the one
 thing you cannot reconstruct later. Start collecting early or not at all.
+
+## Keeping the data fresh
+
+**The nightly scrape cannot run on GitHub Actions.** `sih.gov.in` sits behind a
+Microsoft Azure Application Gateway that returns `403 Forbidden` to GitHub's
+runner IPs. Verified 2026-08-24 from a California runner: every path including
+the root domain, with full browser headers, from both `curl` and `urllib`. It is
+an IP-range block, not a user-agent check, so spoofing headers does not help —
+and working around a WAF is not the right move anyway.
+
+So `refresh.yml` is dispatch-only, and the scrape runs from a machine the portal
+serves. `scripts/refresh.py` does scrape → commit → push in one step:
+
+```bash
+python scripts/refresh.py            # scrape, commit, push if anything changed
+python scripts/refresh.py --no-push  # commit locally only
+python scripts/refresh.py --dry      # scrape and report, write nothing
+```
+
+Schedule it once a day. On Windows, Task Scheduler:
+
+```
+Program:   C:\path\to\repo\.venv\Scripts\python.exe
+Arguments: C:\path\to\repo\scripts\refresh.py
+Start in:  C:\path\to\repo
+```
+
+On Linux or macOS, cron — pick an off-hour minute, the portal is a government
+host and every scheduler in the world fires at `:00`:
+
+```
+42 4 * * *  cd /path/to/repo && .venv/bin/python scripts/refresh.py >> refresh.log 2>&1
+```
+
+If you would rather keep it in CI, register a [self-hosted
+runner](https://docs.github.com/en/actions/hosting-your-own-runners) on that
+machine and flip `runs-on: ubuntu-latest` to `runs-on: self-hosted` in
+`refresh.yml`, then uncomment the schedule. The workflow is otherwise ready.
+
+Whichever route you pick, **start it before idea submissions open.** The portal
+keeps no history, so a day not captured is a day lost permanently.
 
 ## Which year it tracks
 

@@ -115,8 +115,11 @@ def detect_year(from_year: int) -> tuple[int, str]:
     for year in (from_year + 1, from_year, from_year - 1):
         try:
             html = fetch_html(ps_url(year), attempts=1)
-        except Exception:  # noqa: BLE001
-            tried.append(f"{year}: unreachable")
+        except Exception as err:  # noqa: BLE001
+            # Keep the real reason: a 403 from a WAF, a DNS failure and a
+            # timeout all mean "unreachable" but need different responses, and
+            # this message is the only diagnostic a 4am CI run leaves behind.
+            tried.append(f"{year}: {type(err).__name__} {err}")
             continue
         rows = count_rows(html)
         tried.append(f"{year}: {rows} rows")
