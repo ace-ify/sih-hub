@@ -1,0 +1,29 @@
+name: probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.13" }
+      - name: Where is this runner
+        run: curl -s --max-time 20 https://ipinfo.io/json || echo "ipinfo failed"
+      - name: Plain curl to the portal
+        run: |
+          for u in https://sih.gov.in/sih2026PS https://www.sih.gov.in/sih2026PS; do
+            echo "--- $u"
+            curl -sS -o /dev/null -w "http=%{http_code} size=%{size_download} time=%{time_total}\n" --max-time 60 "$u" || echo "curl exit $?"
+          done
+      - name: Python urllib, same as the scraper
+        run: |
+          python - <<'PY'
+          import urllib.request, urllib.error
+          for ua in ["Mozilla/5.0 (sih-scraper; +https://github.com)",
+                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"]:
+              try:
+                  r = urllib.request.Request("https://sih.gov.in/sih2026PS", headers={"User-Agent": ua})
+                  with urllib.request.urlopen(r, timeout=60) as resp:
+                      print("OK", resp.status, len(resp.read()), ua[:35])
+              except Exception as e:
+                  print("FAIL", type(e).__name__, e, ua[:35])
+          PY
