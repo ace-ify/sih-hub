@@ -1,0 +1,234 @@
+# SIH 2026 - problem statements
+
+226 statements scraped from <https://sih.gov.in/sih2026PS> (last update: 2026-08-24).
+
+Content: CC BY 4.0, source Smart India Hackathon (sih.gov.in).
+
+| S.No. | PS Number | Category | Theme | Organization | Title |
+|---|---|---|---|---|---|
+| 1 | SIH26001 | Software | Disaster Management | Ministry of Development of North Eastern Region (MDoNER) | [AI-Based early warning and landslide Risk Monitoring System in NER](SIH26001.md) |
+| 2 | SIH26002 | Software | Smart Automation | Ministry of Development of North Eastern Region (MDoNER) | [Al-Based Smart Logistics and Accessibility Intelligence Platform for North Eastern Region (NER)](SIH26002.md) |
+| 3 | SIH26003 | Software | Space Technology | Ministry of Development of North Eastern Region (MDoNER) | [AI-Based Cognitive Gaming and Memory Assistance Platform for Elderly Dementia Patients in North Eastern Region (NER)](SIH26003.md) |
+| 4 | SIH26004 | Hardware | Space Technology | Ministry of Development of North Eastern Region (MDoNER) | [Al-Assisted Early Detection System for Osteoarthritis (OA) Risk Markers in North Eastern Region (NER)](SIH26004.md) |
+| 5 | SIH26005 | Hardware | Smart Vehicles | Ministry of Development of North Eastern Region (MDoNER) | [Solar-Powered Smart Mini Cold Storage System for Fresh Vegetables in North Eastern Region (NER)](SIH26005.md) |
+| 6 | SIH26006 | Software | Transportation & Logistics | Ministry of Steel | [Development of an Intelligent Freight Forecasting Model for Optimized Vessel Chartering and Bulk Cargo Procurement from overseas to East Coast of India](SIH26006.md) |
+| 7 | SIH26007 | Hardware | Smart Automation | Ministry of Steel | [Safe and Efficient Operation of Mine Vehicles in Fog and Low-Visibility Conditions in Open Cast Iron Ore Mines.](SIH26007.md) |
+| 8 | SIH26008 | Hardware | Smart Automation | Ministry of Steel | [Belt Joint Rupture and Conveyor Belt Damages in Iron Ore Mining Industry: Intelligent Monitoring and Prediction of Conveyor Belt Joint Rupture and Damages in Iron Ore Mining Industry.](SIH26008.md) |
+| 9 | SIH26009 | Software | Smart Automation | Ministry of Steel | [Using AI/ML and Space Technology to Identify Manganese Reserves and Overcome Production Shortfalls.](SIH26009.md) |
+| 10 | SIH26010 | Hardware | Smart Automation | Ministry of Rural Development | [Survey/Resurvey of Rural Agricultural Land in lndia](SIH26010.md) |
+| 11 | SIH26011 | Software | Space Technology | Ministry of Rural Development | [3D ULPIN Generation and vertical Property Mapping SYstem](SIH26011.md) |
+| 12 | SIH26012 | Software | Robotics and Drones | Ministry of Rural Development | [AI-Based Automated Urban Parcel Mapping and Cadastral Feature Extraction System using Drone lmagery](SIH26012.md) |
+| 13 | SIH26013 | Software | Disaster Management | Ministry of Rural Development | [Automated lntegration and lntelligent Harmonization of Multi-source Geospatial Data for urban Land Record Management.](SIH26013.md) |
+| 14 | SIH26014 | Software | Robotics and Drones | Ministry of Rural Development | [An lntegrated GIS-based Digital Public lnfrastructure for Land Governance](SIH26014.md) |
+| 15 | SIH26015 | Software | Disaster Management | Ministry of Rural Development | [Application of Geospatial Techniques for visualization and analysis to interpret Geo-Coded lmages to enhance watershed Development Outcomes.](SIH26015.md) |
+| 16 | SIH26016 | Software | Miscellaneous | Ministry of Rural Development | [Real-Time National Land Acquisition & Management System for End-to-End Digital Monitoring and Decision Support](SIH26016.md) |
+| 17 | SIH26017 | Software | Agriculture, FoodTech & Rural Development | Ministry of Rural Development | [Predictive Analytics System for Early Detection of Land Acquisition Delays](SIH26017.md) |
+| 18 | SIH26018 | Software | MedTech / BioTech / HealthTech | Ministry of Rural Development | [Intelligent Land Record Digitization and Validation System](SIH26018.md) |
+| 19 | SIH26019 | Software | Blockchain & Cybersecurity | Ministry of Rural Development | [National Digital Platform for Research, Policy Innovation, and Evidence-Based Land Governance](SIH26019.md) |
+| 20 | SIH26020 | Hardware | Blockchain & Cybersecurity | Ministry of MSME | [Design and Development of Innovative Hand-Spinning Equipment for Enhancing Khadi Artisan Productivity and Income](SIH26020.md) |
+| 21 | SIH26021 | Software | Smart Automation | Ministry of MSME | [Honey Chain: A block chain-based system for honey traceability and smart beekeeping management.](SIH26021.md) |
+| 22 | SIH26022 | Hardware | Agriculture, FoodTech & Rural Development | Ministry of MSME | [Design and develop a smart, solar-powered drying and compact packaging system to support home-based agarbatti manufacturing by rural women artisans.](SIH26022.md) |
+| 23 | SIH26023 | Software | Miscellaneous | Ministry of Coal | [AI-Powered Geological, Mining and other Reporting Solution for CMPDI/CIL subsidiaries](SIH26023.md) |
+| 24 | SIH26024 | Software | Smart Automation | Ministry of Coal | [AI-Based Smart Governance and Compliance Monitoring System for Coal Mines](SIH26024.md) |
+| 25 | SIH26025 | Hardware | Disaster Management | Ministry of Coal | [Development of an AI-enabled Low Cost Real Time Mine Subsidence Monitoring, Prediction and Early Warning System for Underground Coal Mines in India](SIH26025.md) |
+| 26 | SIH26026 | Hardware | Robotics and Drones | Ministry of Railways | [Development of Mobile (Quadruped)/Handheld Device/System for Real-Time Detection of Narcotics and Explosives across Indian Railways.](SIH26026.md) |
+| 27 | SIH26027 | Software | Transportation & Logistics | Ministry of Railways | [Al-Powered Automatic Block Planning to Maximize Asset Availability for Train Operations on Indian Railways](SIH26027.md) |
+| 28 | SIH26028 | Software | Disaster Management | Ministry of Railways | [Dynamic Forecast of Expected Time of Arrival (ETA) for Coaching Trains](SIH26028.md) |
+| 29 | SIH26029 | Hardware | Disaster Management | Ministry of Consumer Affairs, Food & Public Distribution | [Automated High-Current Short-Circuit Test System for IEC 60898-1:2015 MCB Compliance.](SIH26029.md) |
+| 30 | SIH26030 | Hardware | Smart Automation | Ministry of Consumer Affairs, Food & Public Distribution | [Automated Cable Specimen Preparation System for IS 10810 and IS 7098 Compliance.](SIH26030.md) |
+| 31 | SIH26031 | Software | Fitness & Sports | Ministry of Consumer Affairs, Food & Public Distribution | [Quality assessment and grading of onions are often subjective and vary across procurement centers, resulting in disputes and inconsistencies.](SIH26031.md) |
+| 32 | SIH26032 | Software | Heritage & Culture | Ministry of Consumer Affairs, Food & Public Distribution | [Farmers often face long waiting times, lack of information regarding procurement schedules, and uncertainty about procurement status.](SIH26032.md) |
+| 33 | SIH26033 | Software | MedTech / BioTech / HealthTech | Ministry of Consumer Affairs, Food & Public Distribution | [Multiple intermediaries reduce farmers earnings and increase consumer prices.](SIH26033.md) |
+| 34 | SIH26034 | Software | Agriculture, FoodTech & Rural Development | Ministry of Consumer Affairs, Food & Public Distribution | [Software System to check compliance of Packaged Commodities under Legal Metrology(Packaged Commodities) Rules, 2011 by scanning products, images and labels.](SIH26034.md) |
+| 35 | SIH26035 | Software | Smart Vehicles | Ministry of Consumer Affairs, Food & Public Distribution | [Development of a Software Program/Application for Generation of Test Reports for Non-Automatic Weighing Instruments (NAWI) as per OIML Recommendation R- 76](SIH26035.md) |
+| 36 | SIH26036 | Software | Transportation & Logistics | Ministry of Consumer Affairs, Food & Public Distribution | [Development of an Online Verification System for Weighing and Measuring Instruments](SIH26036.md) |
+| 37 | SIH26037 | Software | Robotics and Drones | MathWorks | [Adaptive Path Planning and Collision Avoidance for Autonomous Vehicles on Unstructured Indian Roads](SIH26037.md) |
+| 38 | SIH26038 | Software | Clean & Green Technology | MathWorks | [Explainable AI for Diabetic Retinopathy Screening in Rural India](SIH26038.md) |
+| 39 | SIH26039 | Hardware | Travel & Tourism | Governmcnt of Jharkhand | [Al-Powered Underground Mine Safety, Monitoring and Rescue System.](SIH26039.md) |
+| 40 | SIH26040 | Hardware | Renewable / Sustainable Energy | Governmcnt of Jharkhand | [Smart Water Purification and Quality Monitoring System for Rural and Mining-Affected Areas.](SIH26040.md) |
+| 41 | SIH26041 | Software | Blockchain & Cybersecurity | Governmcnt of Jharkhand | [AR-Based Vocational Training Simulator for Industrial Safety in Jharkhand's Mining & Manufacturing Sector](SIH26041.md) |
+| 42 | SIH26042 | Software | Smart Education | Governmcnt of Jharkhand | [Al-Powered Vernacular Pedagogy and Real-Time Translation Tool for Mother Tongue-Based Primary Education](SIH26042.md) |
+| 43 | SIH26043 | Software | Disaster Management | Governmcnt of Jharkhand | [A digital platform to crowdsource societal challenges and facilitate collaborative problem solving through universities and industry partnerships](SIH26043.md) |
+| 44 | SIH26044 | Software | Miscellaneous | Ministry of Ayush | [Portal for Academia - Industry collaboration for Skill Mapping, Internships and Placement](SIH26044.md) |
+| 45 | SIH26045 | Software | Toys & Games | Ministry of Ayush | [IP-SAKTI Sahayak a multilingual, RAG-based (source-cited) AI assistant for Intellectual Property and regulatory guidance in Ayurveda, across national and international regimes.](SIH26045.md) |
+| 46 | SIH26046 | Software | Space Technology | Ministry of Ayush | [AIIA Clinical Trials Dashboard - a real-time, cloud-based, GCP-compliant Clinical Trial Management System (CTMS) for Ayurveda research, with CDISC/FHIR-interoperable data, role-based KPIs, and integrated ethics, regulatory (CTRI / NDCT Rules 2019) and pharmacovigilance tracking.](SIH26046.md) |
+| 47 | SIH26047 | Software | Smart Automation | Ministry of Ayush | [Patient Case-Taking Software](SIH26047.md) |
+| 48 | SIH26048 | Hardware | Fitness & Sports | Ministry of Ayush | [iKwath - a pod-based smart Kwatha (Kadha) maker that prepares a fresh, AFI/API-standardized decoction from coarse powder (yavaku?a c?r?a) on demand, in the shortest practical time without altering the decoctions quality or yield](SIH26048.md) |
+| 49 | SIH26049 | Hardware | Heritage & Culture | DRDO | [Modifications to improve the reliability, efficiency,and lifespan of electrical and electronic equipment and systems in the ambient condition of subzero temperature and low pressure of High Altitude Areas(HAA) and Super High Altitude Areas (SHAA) of Ladakh region.](SIH26049.md) |
+| 50 | SIH26050 | Hardware | MedTech / BioTech / HealthTech | DRDO | [High Altitude Performance Optimization and Robust Design of Anti-Drone System.](SIH26050.md) |
+| 51 | SIH26051 | Software | Agriculture, FoodTech & Rural Development | DRDO | [Software Based Model Development for Design of Area Specific Shelter for Thermal Comfort Maintenance.](SIH26051.md) |
+| 52 | SIH26052 | Hardware | Smart Vehicles | DRDO | [To develop an AI/ML-enabled adaptive noise cancellation (ANC) system that effectively suppresses stationary, non-stationary, and impulsive defence noises while maintaining high speech intelligibility and real-time performance on embedded hardware.](SIH26052.md) |
+| 53 | SIH26053 | Software | Transportation & Logistics | DRDO | [Adaptive Variable Resolution 2.5D Lidar Mapping for Dynamic Environment Perception](SIH26053.md) |
+| 54 | SIH26054 | Software | Robotics and Drones | DRDO | [AI-Enabled Real-Time Digital Twin System for Health Monitoring, Fault Prediction and Mission Reliability Enhancement of Aero Piston Engines used in MALE UAVs.](SIH26054.md) |
+| 55 | SIH26055 | Software | Clean & Green Technology | DRDO | [Smart Scan strategy for Electronic Warfare](SIH26055.md) |
+| 56 | SIH26056 | Software | Travel & Tourism | MoSPI | [Development of a Real-time Airfare Price Index for India through Automated Web Scraping of Airline and Online Travel Aggregator Portals for Augmentation of the Consumer Price Index (CPI).](SIH26056.md) |
+| 57 | SIH26057 | Software | Renewable / Sustainable Energy | Ministry of Earth Sciences (MoES) | [AI-Powered Automated Underwater Marine Debris and Anomaly Detection System using Side-Scan Sonar Imagery](SIH26057.md) |
+| 58 | SIH26058 | Hardware | Blockchain & Cybersecurity | Ministry of Earth Sciences (MoES) | [Development of a Low-Power, Real-Time Adaptive Software-Defined Sonar Transmitter Payload for Autonomous Underwater Vehicles (AUVs)](SIH26058.md) |
+| 59 | SIH26059 | Software | Smart Education | Ministry of Earth Sciences (MoES) | [AI-Enabled Antarctic Sea-Ice, Iceberg Trajectory, and Navigation Decision Support System](SIH26059.md) |
+| 60 | SIH26060 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [Digital Platform for efficient remote management of Indian Antarctic Research Stations](SIH26060.md) |
+| 61 | SIH26061 | Software | Miscellaneous | Ministry of Earth Sciences (MoES) | [AI-Driven Smart Energy Management System for Polar Research Stations](SIH26061.md) |
+| 62 | SIH26062 | Software | Toys & Games | Ministry of Earth Sciences (MoES) | [Integrated Polar Expedition Logistics and Asset Management System](SIH26062.md) |
+| 63 | SIH26063 | Software | Space Technology | Ministry of Earth Sciences (MoES) | [Integrated Polar Science Outreach, Knowledge Repository and Media Dissemination Portal](SIH26063.md) |
+| 64 | SIH26064 | Hardware | Smart Resource Conservation | Ministry of Earth Sciences (MoES) | [Low-Cost Deployable Seafloor Metal Detection Sensor for Ocean Resource Exploration](SIH26064.md) |
+| 65 | SIH26065 | Hardware | Smart Automation | Ministry of Earth Sciences (MoES) | [Autonomous Low-Cost Ocean Observation Platform for Polar and Southern Oceans](SIH26065.md) |
+| 66 | SIH26066 | Software | Space Technology | Ministry of Earth Sciences (MoES) | [OceanEmbed - Satellite Embedding-Based Deep Learning Framework for Reconstruction of Subsurface Ocean Temperature from Surface Satellite Observations.](SIH26066.md) |
+| 67 | SIH26067 | Software | Smart Automation | Ministry of Earth Sciences (MoES) | [Develop a web-based interactive 3D visualization platform that integrates numerical ocean model outputs and in-situ observations.](SIH26067.md) |
+| 68 | SIH26068 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [WeatherGPT: Conversational AI for Weather Forecasting, Alerts, and Climate Information](SIH26068.md) |
+| 69 | SIH26069 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [National Weather Big Data Analytics Platform](SIH26069.md) |
+| 70 | SIH26070 | Software | Smart Education | Ministry of Earth Sciences (MoES) | [To develop an Artificial Intelligence (AI) / Machine Learning (ML) based system for identification, classification, and prediction of different tropical cyclone patterns using multi-source satellite data.](SIH26070.md) |
+| 71 | SIH26071 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [AI/ML-Based Integrated heavy rainfall Early Warning and Inundation Prediction System using Satellite, Radar, observational Weather and numerical weather prediction model data.](SIH26071.md) |
+| 72 | SIH26072 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [AIML based Nowcasting of thunderstorm and lightning using atmospheric observation including multiple radars, satellite, lightning and model data.](SIH26072.md) |
+| 73 | SIH26073 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [AI/ML-Based Intelligent Anomaly Detection for Automatic Weather Stations (AWS)](SIH26073.md) |
+| 74 | SIH26074 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [Downscaling of weather forecast from Block level to Panchayat level: Inferring high-resolution plots/ data/ information from low-resolution plot /data /information /variables for agro-meteorological advisory services.](SIH26074.md) |
+| 75 | SIH26075 | Software | Smart Education | Ministry of Earth Sciences (MoES) | [Participants are invited to design and develop **CAPACITY CONNECT A Digital Capacity Building and Learning Management Portal** to support organizational training, competency development, and knowledge sharing through a centralized web-based platform.](SIH26075.md) |
+| 76 | SIH26076 | Software | Miscellaneous | Ministry of Earth Sciences (MoES) | [Development of personalized homepage for 'Mausam' mobile application:](SIH26076.md) |
+| 77 | SIH26077 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [AI-Driven Hyper-Local Early Warning System for Severe Weather Nowcasting](SIH26077.md) |
+| 78 | SIH26078 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [AI-Driven Spatio-Temporal Tracking of Extreme Weather Anomalies in Medium-Range Forecasts](SIH26078.md) |
+| 79 | SIH26079 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [AI-Based Forecast Bust Detection for Medium-Range Weather Forecasts](SIH26079.md) |
+| 80 | SIH26080 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [Regime-Aware AI Post-Processing of Monsoon Rainfall Forecasts](SIH26080.md) |
+| 81 | SIH26081 | Software | Miscellaneous | Ministry of Earth Sciences (MoES) | [Hybrid AINWP Multi-Model Forecast Blending System](SIH26081.md) |
+| 82 | SIH26082 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [Air PollutionWeather Coupled Forecasting System (Delhi NCR Focus)](SIH26082.md) |
+| 83 | SIH26083 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [Extreme Heatwave Early Warning and Human Thermal Stress Index](SIH26083.md) |
+| 84 | SIH26084 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [Convective scale nowcasting for Thunderstorms, Hail & Cloudbursts (06 hr)](SIH26084.md) |
+| 85 | SIH26085 | Software | Disaster Management | Ministry of Earth Sciences (MoES) | [Urban Flood Nowcasting System (Drainage and Rainfall Coupling)](SIH26085.md) |
+| 86 | SIH26086 | Software | Miscellaneous | Ministry of Earth Sciences (MoES) | [Hyperlocal Monsoon Onset & Break Prediction System (Block/Village Scale)](SIH26086.md) |
+| 87 | SIH26087 | Hardware | Smart Education | Ministry of Cooperation | [AI-Enabled Cooperative Capacity Building, ERP & Employment Ecosystem](SIH26087.md) |
+| 88 | SIH26088 | Hardware | Smart Automation | Ministry of Cooperation | [Multilingual Cooperative Governance & Legal Assistance Chatbot](SIH26088.md) |
+| 89 | SIH26089 | Software | Smart Automation | Ministry of Cooperation | [Cooperative Gig Services Platform for Household & Community Services](SIH26089.md) |
+| 90 | SIH26090 | Software | Miscellaneous | Ministry of Social Justice and Empowerment (MoSJE) | [AI-Driven Market Linkage and Smart Cataloging Mobile Application for Marginalized Artisans](SIH26090.md) |
+| 91 | SIH26091 | Software | Miscellaneous | Ministry of Social Justice and Empowerment (MoSJE) | [AI-Driven Hyper-Local Business Advisory and Financial Structuring Assistant for Rural Micro-Entrepreneurs](SIH26091.md) |
+| 92 | SIH26092 | Software | Miscellaneous | Ministry of Social Justice and Empowerment (MoSJE) | [AI-Driven Scheme Matching for Marginalized Entrepreneurs](SIH26092.md) |
+| 93 | SIH26093 | Software | Smart Automation | Ministry of Social Justice and Empowerment (MoSJE) | [AI-Based Real-Time Stress and Trauma Assessment Module for Victims/Complainants Accessing NHAA (14566) and Integrated Portal](SIH26093.md) |
+| 94 | SIH26094 | Software | MedTech / BioTech / HealthTech | Ministry of Social Justice and Empowerment (MoSJE) | [AI-Powered Dynamic Mental Health Monitoring and Distress Prediction System for Victims of Atrocities](SIH26094.md) |
+| 95 | SIH26095 | Software | Miscellaneous | Ministry of Social Justice and Empowerment (MoSJE) | [Smart Real-Time Monitoring & Inspection Mobile App](SIH26095.md) |
+| 96 | SIH26096 | Hardware | Heritage & Culture | Ministry of Social Justice and Empowerment (MoSJE) | [Digital Heritage Archive for Memorials, Manuscripts & Ambedkar: AI-Powered Institutional Archive and Audio-Visual Knowledge Platform](SIH26096.md) |
+| 97 | SIH26097 | Software | Smart Education | Ministry of Social Justice and Empowerment (MoSJE) | [AI-Driven voice Assistant for livelihood Mapping and NSQF-Aligned Skilling Recommendations for SC Communities under GIA component of PM-AJAY](SIH26097.md) |
+| 98 | SIH26098 | Hardware | Miscellaneous | Ministry of Defence (MoD) | [Development of a Low-Cost Precision Guidance and Smart Electronic Fuze System for a 155 mm Artillery Shell](SIH26098.md) |
+| 99 | SIH26099 | Software | Smart Automation | Ministry of Petroleum & Natural Gas | [AI-Driven Standardization and Harmonization of Material Codes Across CPSEs](SIH26099.md) |
+| 100 | SIH26100 | Software | Smart Automation | Ministry of Petroleum & Natural Gas | [AI-Powered Integrated Bid Compliance Verification Platform for GeM Procurement](SIH26100.md) |
+| 101 | SIH26101 | Software | Smart Education | MoSPI | [Develop an AI enabled learning platform that identifies competency gaps, recommends personalized training through integration with the iGOT Karmayogi ecosystem, and capable of generating Quizzes and Multiple choice questions (MCQs) from uploaded learning materials to strengthen capacity building in India's Official Statistical System.](SIH26101.md) |
+| 102 | SIH26102 | Software | Miscellaneous | MoSPI | [Development of an AI-powered system to detect anomalies, fraud, and inefficiencies in MPLAD Scheme implementation regd.](SIH26102.md) |
+| 103 | SIH26103 | Software | Smart Automation | MoSPI | [Use case on web-based integrated project-monitoring platform](SIH26103.md) |
+| 104 | SIH26104 | Software | Miscellaneous | All India Council for Technical Education (AICTE) | [AI-Powered Real-Time Detection and Prevention of Voice Cloning Impersonation Attacks](SIH26104.md) |
+| 105 | SIH26105 | Software | Blockchain & Cybersecurity | All India Council for Technical Education (AICTE) | [AI-Powered Continuous Cyber Risk Quantification and Investment Optimization Platform](SIH26105.md) |
+| 106 | SIH26106 | Software | Blockchain & Cybersecurity | All India Council for Technical Education (AICTE) | [AI-Powered Email Threat Detection, GeoLocation and Forensic Intelligence Platform](SIH26106.md) |
+| 107 | SIH26107 | Software | Smart Automation | Ministry of Consumer Affairs, Food & Public Distribution | [Al-powered Intelligent Assistant for Indian Standards and BIS Services for Industries and Consumers](SIH26107.md) |
+| 108 | SIH26108 | Software | Smart Automation | Ministry of Consumer Affairs, Food & Public Distribution | [AI-Powered Recommendation Engine for Identifying Applicable Indian Standards for Procurement Specifications](SIH26108.md) |
+| 109 | SIH26109 | Hardware | Agriculture, FoodTech & Rural Development | Ministry of Fisheries, Animal Husbandry & Dairying | [Al-Based Predictive Modelling for Early Forecasting of Bovine Mastitis in lndian Dairy Farms](SIH26109.md) |
+| 110 | SIH26110 | Hardware | Agriculture, FoodTech & Rural Development | Ministry of Fisheries, Animal Husbandry & Dairying | [Development of a Low-Cost Light-weight Milk Chilling Can for Small-Scale Dairy Farmers](SIH26110.md) |
+| 111 | SIH26111 | Software | Agriculture, FoodTech & Rural Development | Ministry of Fisheries, Animal Husbandry & Dairying | [Smart Al-Enabled Rapid Feed and Silage Quality Testing System for Dairy Farmers](SIH26111.md) |
+| 112 | SIH26112 | Hardware | Robotics and Drones | Autodesk | [Design and Develop a Modular Autonomous Mobile Robot (AMR) Platform for Smart Warehouse Automation](SIH26112.md) |
+| 113 | SIH26113 | Hardware | MedTech / BioTech / HealthTech | Autodesk | [Human augmentation technologies are transforming healthcare,rehabilitation, industrial ergonomics, assistive living, sports, and personal mobility by improving human capabilities and enhancing quality of life.](SIH26113.md) |
+| 114 | SIH26114 | Software | Smart Automation | Autodesk | [Smart City Site Planning using Autodesk Forma Site Design](SIH26114.md) |
+| 115 | SIH26115 | Software | MedTech / BioTech / HealthTech | Autodesk | [Design and Develop a Smart Mobile Medical-Waste Collection and Segregation System](SIH26115.md) |
+| 116 | SIH26116 | Software | Smart Education | Autodesk | [Urban Mixed-Use Design Challenge-Design a centrally located mixed-use building in Autodesk Revit with commercial spaces (Ground + 1st floor) and residential units (up to 8 floors). 1 Level of Basement (Car Parking + EV Charging), Total (B+G+9)(Note: Plot size and all required dimensions may be assumed by students (in mm units).](SIH26116.md) |
+| 117 | SIH26117 | Software | Smart Automation | Mangalore Refinery and Petrochemicals Limited (MRPL) | [Sovereign On-Premise Agentic AI Workbench using Open-Weight Multimodal LLMs for Confidential Industrial Work](SIH26117.md) |
+| 118 | SIH26118 | Hardware | Miscellaneous | Mangalore Refinery and Petrochemicals Limited (MRPL) | [Passive Colorimetric H2S Exposure-Dosimeter Wristband with AI-Based Quantitative Reading](SIH26118.md) |
+| 119 | SIH26119 | Software | Miscellaneous | Mangalore Refinery and Petrochemicals Limited (MRPL) | [Indigenous GPU-Accelerated Optimization Solver (Sovereign Alternative to Express / CEPLEX)](SIH26119.md) |
+| 120 | SIH26120 | Software | Smart Automation | Oil India Limited | [Digital Twin for Well-to-Surface Optimization of Cyclic Steam Stimulation (CSS) and Sucker Rod Pump (SRP) Operations for Heavy Oil Wells of Baghewala Field.](SIH26120.md) |
+| 121 | SIH26121 | Software | Smart Automation | Oil India Limited | [eRTMAC-NWIS (Nearby Wells Intelligence System): An AI-Powered Offset Well Knowledge and Decision Support Platform for Drilling Operations](SIH26121.md) |
+| 122 | SIH26122 | Software | Smart Automation | Oil India Limited | [Intelligent Data Capture & Schedule-Linking Layer for Infrastructure Project Management: Real-Time Actual Progress Tracking (Planning-to-Execution Bridge)](SIH26122.md) |
+| 123 | SIH26123 | Software | Robotics and Drones | Bharat Electronics Limited | [Edge-AI Based Distributed Fleet Coordination for Autonomous Mobile Robots (AMRs) in Smart Warehouses](SIH26123.md) |
+| 124 | SIH26124 | Software | Fitness & Sports | Bharat Electronics Limited | [AI-Powered Mobile Urban Intelligence Platform Using Public Transport Fleet](SIH26124.md) |
+| 125 | SIH26125 | Software | Blockchain & Cybersecurity | Bharat Electronics Limited | [Blockchain-Based Secure Platform for Identity,Access Control, and Digital Asset Management](SIH26125.md) |
+| 126 | SIH26126 | Software | Robotics and Drones | Bharat Electronics Limited | [Vision Based Autonomous Navigation for Unmanned Ground Vehicle for Outdoor environment](SIH26126.md) |
+| 127 | SIH26127 | Software | Transportation & Logistics | Bharat Electronics Limited | [City-Wide AI Engine for Multi-Camera ANPR Trajectory Tracking and Urban Traffic Analytics](SIH26127.md) |
+| 128 | SIH26128 | Software | Agriculture, FoodTech & Rural Development | Government Of Maharashtra | [Efficient systems for early detection,prevention,and management of livestock diseases and animal health issues](SIH26128.md) |
+| 129 | SIH26129 | Software | Smart Automation | Government Of Maharashtra | [System integration and interoperability among government digital platforms,resulting in fragmented service delivery](SIH26129.md) |
+| 130 | SIH26130 | Software | Smart Automation | Government Of Maharashtra | [Efficiency in streamlining industrial approvals,compliance processes,and access to government support services](SIH26130.md) |
+| 131 | SIH26131 | Software | Agriculture, FoodTech & Rural Development | Government Of Maharashtra | [Early detection and management of crop diseases and pest infestations](SIH26131.md) |
+| 132 | SIH26132 | Software | Agriculture, FoodTech & Rural Development | Government Of Maharashtra | [Strengthening market linkages and price discovery for farmers](SIH26132.md) |
+| 133 | SIH26133 | Software | MedTech / BioTech / HealthTech | Government Of Maharashtra | [Accessibility and quality of public healthcare services,particularly in rural and underserved areas](SIH26133.md) |
+| 134 | SIH26134 | Software | Miscellaneous | Government Of Maharashtra | [Challenges in aligning skill development programs with industry requirements and emerging job market demands](SIH26134.md) |
+| 135 | SIH26135 | Software | Smart Education | Government Of Maharashtra | [Difficulties in tracking employment outcomes,skill gaps, and the impact of skilling initiatives](SIH26135.md) |
+| 136 | SIH26136 | Software | Smart Automation | Government Of Maharashtra | [Startup friendly public procurement mechanism that enables government departments to identify,pilot, procure,and scale innovative solutions from eligible startups](SIH26136.md) |
+| 137 | SIH26137 | Software | Fitness & Sports | Egreen Quanta | [Quantum-Inspired Intelligent Traffic Route Optimization in Transportation Systems Using Metaheuristic Optimization](SIH26137.md) |
+| 138 | SIH26138 | Software | Smart Vehicles | Egreen Quanta | [Quantum-Inspired Fuel Consumption Prediction and Green Fleet Optimization](SIH26138.md) |
+| 139 | SIH26139 | Software | MedTech / BioTech / HealthTech | Egreen Quanta | [Hybrid Quantum Machine Learning Platform for Early Disease Detection](SIH26139.md) |
+| 140 | SIH26140 | Software | Smart Education | Egreen Quanta | [AI-Based Interactive Quantum Algorithm Learning Platform](SIH26140.md) |
+| 141 | SIH26141 | Software | Blockchain & Cybersecurity | Egreen Quanta | [Quantum-Inspired Cyber Threat Detection for Digital Signature Security](SIH26141.md) |
+| 142 | SIH26142 | Software | Smart Education | National Technical Research Organisation (NTRO) | [Deep Learning Based Super Resolution Mapping (SRM) from Medium Resolution Satellite Imageries](SIH26142.md) |
+| 143 | SIH26143 | Software | Space Technology | National Technical Research Organisation (NTRO) | [Leveraging satellite imagery to determine Oil spills at sea along with AIS data correlations to identify vessel responsible for the spill.](SIH26143.md) |
+| 144 | SIH26144 | Hardware | Miscellaneous | National Technical Research Organisation (NTRO) | [Design & Development of a High-Sensitivity Micro barometer Infrasound sensor](SIH26144.md) |
+| 145 | SIH26145 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [AI-Based Detection of Cyber Threats in Unidirectional IP Traffic](SIH26145.md) |
+| 146 | SIH26146 | Software | Transportation & Logistics | National Technical Research Organisation (NTRO) | [AI-Powered Monitoring & Analysis of Bitcoin Transaction Traffic](SIH26146.md) |
+| 147 | SIH26147 | Software | Miscellaneous | National Technical Research Organisation (NTRO) | [Automated model for analysis of .IQ and .wav files along with signal parameter extraction](SIH26147.md) |
+| 148 | SIH26148 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [Creation of scripts/functions with new programming language to commence Computer & Network forensic analysis without triggering security solutions](SIH26148.md) |
+| 149 | SIH26149 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [Design and Development of an Integrated Secure Data Erasure and Advanced File Recovery Tool for Digital Forensics and Data Sanitization](SIH26149.md) |
+| 150 | SIH26150 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [Development of a Multi-Vendor DVR/NVR Forensic Analysis Tool for Standardized Acquisition, Recovery, and Analysis of Surveillance Evidence.](SIH26150.md) |
+| 151 | SIH26151 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [Dark web threat actor de-anonymization](SIH26151.md) |
+| 152 | SIH26152 | Software | Miscellaneous | National Technical Research Organisation (NTRO) | [Social Media Analytics](SIH26152.md) |
+| 153 | SIH26153 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [AI based Network Attack Forecasting from Network Traffic Data](SIH26153.md) |
+| 154 | SIH26154 | Software | Smart Automation | National Technical Research Organisation (NTRO) | [Gen AI Platform for Automated Content Transformation](SIH26154.md) |
+| 155 | SIH26155 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [AI-Driven Multi-Vendor Network Security Compliance Auditor](SIH26155.md) |
+| 156 | SIH26156 | Software | Miscellaneous | National Technical Research Organisation (NTRO) | [Universal Log Pre-processing Framework](SIH26156.md) |
+| 157 | SIH26157 | Software | Miscellaneous | National Technical Research Organisation (NTRO) | [Supervisory Analytics Tool for SOC Assessment (SAT-SA)](SIH26157.md) |
+| 158 | SIH26158 | Software | Robotics and Drones | National Technical Research Organisation (NTRO) | [Single-Pass Drone Video to Accurate 3D Model Generation System](SIH26158.md) |
+| 159 | SIH26159 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [SecureMailScope: AI-Assisted Cryptographic Security Posture Assessment for Secure Email Communications](SIH26159.md) |
+| 160 | SIH26160 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [AI-Powered IPsec VPN Protocol Analyzer and Security Assessment Framework](SIH26160.md) |
+| 161 | SIH26161 | Software | Disaster Management | National Technical Research Organisation (NTRO) | [Dam Break Inundation Modelling Using Hydrodynamic Modelling of any River](SIH26161.md) |
+| 162 | SIH26162 | Software | Miscellaneous | National Technical Research Organisation (NTRO) | [AI-Based Detection and Classification of Industrial Fires and Persistent Thermal Sources Using NASA FIRMS, OSM & Satellite Data](SIH26162.md) |
+| 163 | SIH26163 | Software | Miscellaneous | National Technical Research Organisation (NTRO) | [Security Assessment of the World Monitor application](SIH26163.md) |
+| 164 | SIH26164 | Software | Blockchain & Cybersecurity | National Technical Research Organisation (NTRO) | [Enterprise Cryptographic Discovery & Analysis Tool (ECDAT)](SIH26164.md) |
+| 165 | SIH26165 | Software | Miscellaneous | Oil India Limited | [AI/NLP Engine to Detect Serious Injury & Fatality (SIF) Precursors in OIL's Unsafe-Act/Unsafe-Condition and Near-Miss Reports](SIH26165.md) |
+| 166 | SIH26166 | Software | Space Technology | Indian Space Research Organisation(ISRO) | [Multi-modal, Sun angle and scale invariant image correspondence using Chandrayaan-2 optical images (OHRC, TMC and IIRS)](SIH26166.md) |
+| 167 | SIH26167 | Software | Space Technology | Indian Space Research Organisation(ISRO) | [SatQuery AI - An Interactive Vision-Language Assistant for Multimodal Remote Sensing Image Analysis through Text Queries](SIH26167.md) |
+| 168 | SIH26168 | Software | Miscellaneous | Indian Space Research Organisation(ISRO) | [AI-ML based Intelligent Dead Reckoning system for seamless navigation](SIH26168.md) |
+| 169 | SIH26169 | Software | Miscellaneous | Indian Space Research Organisation(ISRO) | [Development of an AI-Based Virtual Camera Tracking System for Coarse Alignment of Mobile Free Space Optical Communication (FSOC) Terminals](SIH26169.md) |
+| 170 | SIH26170 | Software | Smart Automation | Indian Space Research Organisation(ISRO) | [AI-Driven Anomaly Detection in Component Burn-In & Screening](SIH26170.md) |
+| 171 | SIH26171 | Software | Miscellaneous | Indian Space Research Organisation(ISRO) | [On-device Visual Perception for Light-weight Browser Agents](SIH26171.md) |
+| 172 | SIH26172 | Hardware | Miscellaneous | Indian Space Research Organisation(ISRO) | [Low Latency and Efficient Voice Activator for Edge Devices](SIH26172.md) |
+| 173 | SIH26173 | Software | Miscellaneous | Indian Space Research Organisation(ISRO) | [iTantra -Indian Multilingual TTS & STT Aided Neural Transceiver Radio Access for low bitrate links](SIH26173.md) |
+| 174 | SIH26174 | Software | Miscellaneous | Indian Space Research Organisation(ISRO) | [AI Human Activity Recognition for On-board BAS Experiments](SIH26174.md) |
+| 175 | SIH26175 | Software | Miscellaneous | Indian Space Research Organisation(ISRO) | [DepthWizard - Single-View Height Estimation and 3D Flythrough](SIH26175.md) |
+| 176 | SIH26176 | Software | Miscellaneous | Indian Space Research Organisation(ISRO) | [ORCA Marine EcOsystem Reasoning with Collaborative Agents](SIH26176.md) |
+| 177 | SIH26177 | Hardware | Robotics and Drones | Qualcomm Inc | [A deployable AI-powered autonomous drone that aids search-and-rescue operations by detecting people and hazards, thereby improving responder safety and reducing victim discovery time.](SIH26177.md) |
+| 178 | SIH26178 | Hardware | Disaster Management | Qualcomm Inc | [A resilient, AI-powered environmental monitoring network that provides early detection, localized intelligence, and actionable alerts for floods, forest fires, pollution events, and other environmental hazards common in India, enabling authorities and communities to shift from reactive disaster response to proactive risk prevention.](SIH26178.md) |
+| 179 | SIH26179 | Hardware | Smart Automation | Qualcomm Inc | [To build an AI-powered retail intelligence platform that delivers real-time shopper analytics, automated inventory visibility, and proactive queue management through on-device AI,enabling retailers to reduce stock-outs, improve customer experience, optimize staffing, and increase operational efficiency while maintaining privacy and minimizing cloud dependency.](SIH26179.md) |
+| 180 | SIH26180 | Hardware | Disaster Management | Qualcomm Inc | [A field-deployable AI-powered Smart Farming Assistant that helps farmers detect crop diseases, pests, nutrient deficiencies, and irrigation needs at an early stage, while improving resilience against droughts, floods, heat waves, and other agricultural risks common in India. The solution should enable higher yields, lower input costs, more efficient water usage, and faster response to emerging threats through real-time on-device intelligence.](SIH26180.md) |
+| 181 | SIH26181 | Hardware | MedTech / BioTech / HealthTech | Qualcomm Inc | [A secure, AI-powered Personal Health Companion that delivers real-time, privacy-preserving health monitoring and early warning capabilities, helping individuals recognize health risks before they become emergencies. The solution should improve resilience during heat waves, floods, pollution events, and other disasters common in India while enabling continuous health support through on-device intelligence.](SIH26181.md) |
+| 182 | SIH26182 | Software | Blockchain & Cybersecurity | Ministry of Home Affairs | [Automated Attribution of Unknown Cryptocurrency Wallets to Nearest Virtual Asset Service Providers (VASPs) through Blockchain Intelligence APIs](SIH26182.md) |
+| 183 | SIH26183 | Software | Blockchain & Cybersecurity | Ministry of Home Affairs | [Real-Time Identification of Fraud-Linked Cryptocurrency Exchanges from Victim-Reported Suspect Wallet Addresses through Automated Blockchain Analytics](SIH26183.md) |
+| 184 | SIH26184 | Software | Blockchain & Cybersecurity | Ministry of Home Affairs | [Development of a Predictive Analytics Framework for Cybercrime Complaints to Forecast Likely Cash Withdrawal Locations in Advance, Enabling Generation of Actionable Intelligence for Timely and Proactive Cybercrime Intervention.](SIH26184.md) |
+| 185 | SIH26185 | Hardware | Miscellaneous | Ministry of Home Affairs | [Helmet mounted conformal antenna for tactical communications in urban CQB environments.](SIH26185.md) |
+| 186 | SIH26186 | Software | MedTech / BioTech / HealthTech | Ministry of Home Affairs | [AI-Based Predictive Personnel Stress and Welfare Monitoring System for Uniformed Forces](SIH26186.md) |
+| 187 | SIH26187 | Software | Smart Automation | Ministry of Home Affairs | [AI-Based Intelligent Video Analytics Platform for Border Surveillance using existing CCTV Infrastructure.](SIH26187.md) |
+| 188 | SIH26188 | Software | Miscellaneous | Ministry of Home Affairs | [Al-Based Fake Identity & Document Screening System](SIH26188.md) |
+| 189 | SIH26189 | Software | Blockchain & Cybersecurity | Ministry of Home Affairs | [AI-Powered Criminal Network Analysis System](SIH26189.md) |
+| 190 | SIH26190 | Software | Miscellaneous | Ministry of Home Affairs | [Secure Digital Document Management System for Legal and Investigation Documents](SIH26190.md) |
+| 191 | SIH26191 | Software | Disaster Management | Ministry of Home Affairs | [Intelligent Identification of Hazard-Based Red Zones, Carrying Capacity Assessment, and Immediate Relocation Needs for Vulnerable Habitations](SIH26191.md) |
+| 192 | SIH26192 | Software | Disaster Management | Ministry of Home Affairs | [Flash Flood Prediction System for Hilly Regions using Multi-Source Data Theme](SIH26192.md) |
+| 193 | SIH26193 | Software | Smart Resource Conservation | AICTE | [Student Innovation](SIH26193.md) |
+| 194 | SIH26194 | Software | Fitness & Sports | AICTE | [Student Innovation](SIH26194.md) |
+| 195 | SIH26195 | Software | Heritage & Culture | AICTE | [Student Innovation](SIH26195.md) |
+| 196 | SIH26196 | Software | MedTech / BioTech / HealthTech | AICTE | [Student Innovation](SIH26196.md) |
+| 197 | SIH26197 | Software | Agriculture, FoodTech & Rural Development | AICTE | [Student Innovation](SIH26197.md) |
+| 198 | SIH26198 | Software | Transportation & Logistics | AICTE | [Student Innovation](SIH26198.md) |
+| 199 | SIH26199 | Software | Fitness & Sports | AICTE | [Student Innovation](SIH26199.md) |
+| 200 | SIH26200 | Software | MedTech / BioTech / HealthTech | AICTE | [Student Innovation](SIH26200.md) |
+| 201 | SIH26201 | Software | Smart Resource Conservation | AICTE | [Student Innovation](SIH26201.md) |
+| 202 | SIH26202 | Software | Travel & Tourism | AICTE | [Student Innovation](SIH26202.md) |
+| 203 | SIH26203 | Software | Renewable / Sustainable Energy | AICTE | [Student Innovation](SIH26203.md) |
+| 204 | SIH26204 | Software | Miscellaneous | AICTE | [Student Innovation](SIH26204.md) |
+| 205 | SIH26205 | Software | Smart Education | AICTE | [Student Innovation](SIH26205.md) |
+| 206 | SIH26206 | Software | Disaster Management | AICTE | [Student Innovation](SIH26206.md) |
+| 207 | SIH26207 | Software | Travel & Tourism | AICTE | [Student Innovation](SIH26207.md) |
+| 208 | SIH26208 | Software | Heritage & Culture | AICTE | [Student Innovation](SIH26208.md) |
+| 209 | SIH26209 | Software | Space Technology | AICTE | [Student Innovation](SIH26209.md) |
+| 210 | SIH26210 | Hardware | Smart Resource Conservation | AICTE | [Student Innovation](SIH26210.md) |
+| 211 | SIH26211 | Hardware | Fitness & Sports | AICTE | [Student Innovation](SIH26211.md) |
+| 212 | SIH26212 | Hardware | Heritage & Culture | AICTE | [Student Innovation](SIH26212.md) |
+| 213 | SIH26213 | Hardware | MedTech / BioTech / HealthTech | AICTE | [Student Innovation](SIH26213.md) |
+| 214 | SIH26214 | Hardware | Agriculture, FoodTech & Rural Development | AICTE | [Student Innovation](SIH26214.md) |
+| 215 | SIH26215 | Hardware | Transportation & Logistics | AICTE | [Student Innovation](SIH26215.md) |
+| 216 | SIH26216 | Hardware | Fitness & Sports | AICTE | [Student Innovation](SIH26216.md) |
+| 217 | SIH26217 | Hardware | MedTech / BioTech / HealthTech | AICTE | [Student Innovation](SIH26217.md) |
+| 218 | SIH26218 | Hardware | Smart Resource Conservation | AICTE | [Student Innovation](SIH26218.md) |
+| 219 | SIH26219 | Hardware | Travel & Tourism | AICTE | [Student Innovation](SIH26219.md) |
+| 220 | SIH26220 | Hardware | Renewable / Sustainable Energy | AICTE | [Student Innovation](SIH26220.md) |
+| 221 | SIH26221 | Hardware | Miscellaneous | AICTE | [Student Innovation](SIH26221.md) |
+| 222 | SIH26222 | Hardware | Smart Education | AICTE | [Student Innovation](SIH26222.md) |
+| 223 | SIH26223 | Hardware | Disaster Management | AICTE | [Student Innovation](SIH26223.md) |
+| 224 | SIH26224 | Hardware | Travel & Tourism | AICTE | [Student Innovation](SIH26224.md) |
+| 225 | SIH26225 | Hardware | Heritage & Culture | AICTE | [Student Innovation](SIH26225.md) |
+| 226 | SIH26226 | Hardware | Space Technology | AICTE | [Student Innovation](SIH26226.md) |

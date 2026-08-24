@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+
+# build output
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# local-only
+.cache/
+.claude/settings.local.json
+.playwright-mcp/
+.env*
+!.env.example
+
+# misc
+*.log
+.DS_Store

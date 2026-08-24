@@ -1,0 +1,49 @@
+name: refresh
+
+# Nightly scrape at 04:12 IST (22:42 UTC). Off the hour on purpose — every cron
+# job in the world fires at :00 and the portal is a government host.
+on:
+  schedule:
+    - cron: "42 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+      - run: python scripts/test_scrape.py
+
+      # The scraper detects the live SIH edition itself (retired years return
+      # HTTP 200 with an empty table, so it checks row counts, not status) and
+      # refuses to write when validation fails, leaving committed data intact.
+      # Pin an edition with the SIH_YEAR repo variable if the scheme changes.
+      - run: python scripts/scrape.py
+        env:
+          SIH_YEAR: ${{ vars.SIH_YEAR }}
+
+      - name: Commit if the data actually changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data ps web/src/data; then
+            echo "no data changes"
+            exit 0
+          fi
+          git add data ps web/src/data
+          git commit -m "data: refresh $(date -u +%Y-%m-%d)"
+          git push

@@ -1,0 +1,23 @@
+# Dataset licence
+
+The problem-statement content in `data/`, `ps/` and `web/src/data/` is not ours.
+It is published by the Smart India Hackathon at <https://sih.gov.in/sih2026PS>
+and is redistributed here under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0).
+
+**Attribution:** Source: Smart India Hackathon, sih.gov.in
+
+Full licence text: <https://creativecommons.org/licenses/by/4.0/>
+
+You are free to share and adapt this data, including commercially, provided you
+give attribution as above and indicate if changes were made. The scraper
+normalises the source text (repairs CP1252 mojibake, restores paragraph breaks
+from the page markup) and adds derived fields; the underlying content is
+unmodified.
+
+This repository is an unofficial mirror and is not endorsed by or affiliated
+with the Smart India Hackathon, AICTE, or the Ministry of Education. Deadlines
+and idea counts are point-in-time snapshots — verify against the official portal
+before relying on them.
+
+The code in this repository is MIT licensed. See LICENSE.

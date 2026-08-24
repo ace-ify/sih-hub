@@ -1,0 +1,10 @@
+# The scraper writes LF and a bot commits its output nightly. Without this, a
+# Windows clone gets CRLF working files and every generated artifact looks
+# rewritten to whoever diffs it next.
+* text=auto eol=lf
+
+# Collapse the machine-sized exports in diffs. ps/*.md stays visible — those are
+# the human-browsable deliverable, and data/changelog/ is the readable diff.
+data/ps.json    linguist-generated
+data/ps.csv     linguist-generated
+web/src/data/ps.json linguist-generated
