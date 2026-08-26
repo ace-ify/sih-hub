@@ -65,12 +65,39 @@ thing you cannot reconstruct later. Start collecting early or not at all.
 **The nightly scrape cannot run on GitHub Actions.** `sih.gov.in` sits behind a
 Microsoft Azure Application Gateway that returns `403 Forbidden` to GitHub's
 runner IPs. Verified 2026-08-24 from a California runner: every path including
-the root domain, with full browser headers, from both `curl` and `urllib`. It is
-an IP-range block, not a user-agent check, so spoofing headers does not help —
-and working around a WAF is not the right move anyway.
+the root domain, with full browser headers, from both `curl` and `urllib`. A
+third-party reader proxy on cloud infrastructure gets the same 403. It is an
+IP-range block, not a user-agent check, so spoofing headers does not help — and
+working around a WAF is not the right move anyway.
 
-So `refresh.yml` is dispatch-only, and the scrape runs from a machine the portal
-serves. `scripts/refresh.py` does scrape → commit → push in one step:
+### Before choosing a host, test it
+
+Every option below hinges on one unknown: whether the block is geographic
+(non-India) or covers datacenter ranges generally. Run this on any candidate
+machine — it takes two seconds and saves setting up a host that cannot reach the
+portal:
+
+```bash
+curl -sS -o /dev/null -w "%{http_code}\n" --max-time 30 https://sih.gov.in/sih2026PS
+# 200 = usable.  403 = blocked, pick another host.
+```
+
+### Options, cheapest first
+
+| Where | Cost | Verified | Trade-off |
+|---|---|---|---|
+| Your own machine | free | ✅ works | Must be awake at the scheduled time |
+| Any always-on box on the same connection (an old laptop, a Pi) | free | ✅ same IP range | Needs hardware you already own |
+| A free-tier VM in an India region (Oracle Cloud Mumbai/Hyderabad has an always-free tier) | free | ❓ untested | Datacenter IP — run the test above first |
+| Self-hosted GitHub runner on any box that passes the test | free | ❓ | Keeps everything in Actions; one-line workflow change |
+
+Residential Indian IPs are confirmed working, which makes the first two rows the
+only options that need no verification. A cloud VM in Mumbai may work if the
+block is purely geographic; the test one-liner settles it in seconds.
+
+### Running it
+
+`scripts/refresh.py` does scrape → commit → push in one step:
 
 ```bash
 python scripts/refresh.py            # scrape, commit, push if anything changed
@@ -93,13 +120,21 @@ host and every scheduler in the world fires at `:00`:
 42 4 * * *  cd /path/to/repo && .venv/bin/python scripts/refresh.py >> refresh.log 2>&1
 ```
 
-If you would rather keep it in CI, register a [self-hosted
-runner](https://docs.github.com/en/actions/hosting-your-own-runners) on that
-machine and flip `runs-on: ubuntu-latest` to `runs-on: self-hosted` in
-`refresh.yml`, then uncomment the schedule. The workflow is otherwise ready.
+To keep it in CI instead, register a [self-hosted
+runner](https://docs.github.com/en/actions/hosting-your-own-runners) on a machine
+that passes the test, flip `runs-on: ubuntu-latest` to `runs-on: self-hosted` in
+`refresh.yml`, and uncomment the schedule. The workflow is otherwise ready.
 
 Whichever route you pick, **start it before idea submissions open.** The portal
 keeps no history, so a day not captured is a day lost permanently.
+
+### A note on failing loudly
+
+`refresh.py` exits non-zero when the scrape fails, and the scraper writes nothing
+on a failed validation. That is deliberate. A refresh job that catches its own
+errors and exits 0 reports green while collecting nothing — the failure mode is
+invisible until someone compares the data against the live portal weeks later,
+by which point the idea history is unrecoverable. Prefer a red run and an email.
 
 ## Which year it tracks
 
