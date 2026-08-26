@@ -1,0 +1,63 @@
+name: deploy
+
+# Builds the static export and publishes it to GitHub Pages so the site is
+# available to anyone without cloning or building anything. Runs on every push
+# that lands on main — including the data-refresh commits, so a fresh scrape
+# reaches the live site automatically.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static export
+        working-directory: web
+        env:
+          # configure-pages resolves the real origin and subpath, so the same
+          # workflow works for a project page, a user page or a custom domain.
+          NEXT_PUBLIC_SITE_URL: ${{ steps.pages.outputs.base_url }}
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: |
+          npm ci
+          npm run build
+
+      # .nojekyll stops Pages discarding files that start with an underscore,
+      # which is every asset Next emits under _next/.
+      - run: touch web/out/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
