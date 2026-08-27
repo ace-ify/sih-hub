@@ -6,11 +6,13 @@ export function Sparkline({
   series: [string, number][];
   className?: string;
 }) {
-  if (series.length < 2) return null;
   const values = series.map(([, v]) => v);
   const max = Math.max(...values);
   const min = Math.min(...values);
-  const span = max - min || 1;
+  // A flat series has no trend to show, and rendering it draws a stray dash that
+  // reads as a glitch. Every statement sits at 0 until submissions open.
+  if (series.length < 2 || max === min) return null;
+  const span = max - min;
 
   const points = values
     .map((v, i) => {

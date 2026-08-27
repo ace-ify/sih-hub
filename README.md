@@ -1,6 +1,8 @@
-# SIH 2026 problem statements
+# SIH problem statements
 
-All 226 Smart India Hackathon 2026 problem statements as JSON, CSV and Markdown,
+**Live site: <https://ace-ify.github.io/sih-hub/>** — nothing to clone or build.
+
+All 226 Smart India Hackathon problem statements as JSON, CSV and Markdown,
 plus a static search app — and a daily snapshot of idea-submission counts, which
 the official portal does not keep.
 
@@ -214,18 +216,23 @@ npm run build     # static export into web/out
 Set `NEXT_PUBLIC_SITE_URL` at build time so OG tags and `sitemap.xml` carry the
 real origin; it defaults to localhost and never affects routing.
 
-Deployed on Cloudflare Pages, which builds `web/` and publishes `web/out`:
+Deployed to GitHub Pages by `.github/workflows/deploy.yml` on every push to
+`main`, so a data-refresh commit reaches the live site with no manual step. The
+workflow reads its origin and subpath from `actions/configure-pages`, so moving
+to a custom domain or a root-domain host needs no code change — only
+`NEXT_PUBLIC_BASE_PATH` left empty.
+
+For a root domain instead (Cloudflare Pages, Netlify):
 
 | Setting | Value |
 |---|---|
 | Build command | `npm run build` |
 | Output directory | `out` |
 | Root directory | `web` |
-| Environment | `NEXT_PUBLIC_SITE_URL=https://<your-domain>` |
+| Environment | `NEXT_PUBLIC_SITE_URL=https://<your-domain>` (leave `NEXT_PUBLIC_BASE_PATH` unset) |
 
-Hosting at a root domain matters: a project subpath (like GitHub Pages'
-`user.github.io/repo/`) needs `basePath` and `assetPrefix` set, or every asset
-404s.
+Hosting under a subpath requires `NEXT_PUBLIC_BASE_PATH=/<repo>`, or every asset
+and internal link 404s.
 
 > **Build on Linux for releases.** Next 16.3.2's exporter uses `path.relative`
 > when naming per-segment prefetch payloads, so on Windows it writes
